@@ -87,14 +87,13 @@ cu.start();
 
 
 //========= glightbox
-const myGallery = GLightbox({
-	'href': 'assets/video/video.mp4',
-	'type': 'video',
-	'source': 'local', //vimeo, youtube or local
-	'width': 900,
-	'autoplayVideos': true,
-});
-
+// const myGallery = GLightbox({
+// 	'href': 'assets/video/video.mp4',
+// 	'type': 'video',
+// 	'source': 'local', //vimeo, youtube or local
+// 	'width': 900,
+// 	'autoplayVideos': true,
+// });
 
 //======== tiny slider
 var slider = new tns({
