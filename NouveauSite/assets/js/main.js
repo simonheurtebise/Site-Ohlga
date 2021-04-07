@@ -61,7 +61,7 @@ window.document.addEventListener('scroll', onScroll);
 
 
 
-//===== close navbar-collapse when a  clicked
+//===== close navbar-collapse when a clicked
 let navbarToggler = document.querySelector(".navbar-toggler");
 var navbarCollapse = document.querySelector(".navbar-collapse");
 
@@ -75,7 +75,7 @@ navbarToggler.addEventListener('click', function () {
 	navbarToggler.classList.toggle("active");
 });
 
-//====== counter up 
+//====== counter up
 var cu = new counterUp({
 	start: 0,
 	duration: 2000,
