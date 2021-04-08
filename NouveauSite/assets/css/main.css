@@ -18,8 +18,11 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #191919;
-  overflow-x: hidden;
   background-color: #000000;
+}
+
+html, body{
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
