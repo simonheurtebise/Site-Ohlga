@@ -20,6 +20,50 @@
 		<link rel="stylesheet" href="assets/css/glightbox.min.css">
 		<link rel="stylesheet" href="assets/css/tiny-slider.css">
 		<link rel="stylesheet" href="assets/css/main.css">
+
+        <style>
+            #expertise1{
+                background-image: url(assets/img/hero/vignette1.svg);
+            }
+
+            #expertise2{
+                background-image: url(assets/img/hero/vignette2.svg);
+                background-repeat: no-repeat;
+            }
+
+            .with-illustration{
+                background-color: #0f0f0f !important;
+            }
+
+            .mobile-illustration{
+                display: none;
+                width:100%;
+                height:145px;
+            }
+
+            @media (max-width: 767px) {
+                .with-illustration{
+                    background-image:none !important;
+                }
+
+                .mobile-illustration{
+                    display: block;
+                }
+
+                .mb-30bis1,.mb-30bis2{
+                    margin-left:0px;
+                    margin-right:0px;
+                }
+
+                .subscribe-section .subscribe-wrapper .subscribe-form{
+                    align-items: baseline;
+                }
+
+                .theme-btn2bis{
+                    margin:0
+                }
+            }            
+        </style>
     </head>
     <body>
 
@@ -123,9 +167,8 @@
                   </div>
               </div>
           </div>
-          </style>
-                <div class="subscribe-wrapper pt-70 pb-70" style="background-image: url(assets/img/hero/vignette1.svg)">
-
+                <div id="expertise1" class="subscribe-wrapper pt-70 pb-70 with-illustration">
+                    <img class="mobile-illustration" src="assets/img/hero/vignette1.svg" />
                     <div class="row">
                         <div class="col-xl-6 col-lg-8 col-md-10 mx-auto">
                             <div class="section-title text-center mb-30bis1">
@@ -133,7 +176,7 @@
                                 <p class="p2 text-white wow fadeInLeUp" data-wow-delay=".6s">Nous concevons et développons des solutions numériques innovantes et ergonomiques axées sur la performance et l’expérience utilisateur. Notre agence s’adapte aux besoins de nos clients en concevant des applications mobiles et des sites internet performants.</p>
                             </div>
                         </div>
-                        <div class="col-xl-8 col-lg-10 mx-auto">
+                        <div class="col-xl-8 col-lg-8 mx-auto">
                             <form action="innovation.html" class="subscribe-form wow fadeInUp" data-wow-delay=".8s">
                               <!--  <input type="email" name="subs-input" id="subs-input" placeholder="Enter your email"> -->
                                 <button type="submit" class="theme-btn1bis">En savoir plus</button>
@@ -142,17 +185,18 @@
                     </div>
                 </div>
             <br><br>
-                <div class="subscribe-wrapper pt-70 pb-70" style="background-image: url(assets/img/hero/vignette2.svg)">
+                <div id="expertise2" class="with-illustration subscribe-wrapper pt-70 pb-70 ">
                     <!--<div class="shape shape-1"></div>-->
                     <!--<div class="shape shape-2"></div>-->
+                    <img class="mobile-illustration" src="assets/img/hero/vignette2.svg" />
                     <div class="row">
-                        <div class="col-xl-6 col-lg-8 col-md-10 mx-auto">
+                        <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 mx-auto">
                             <div class="section-title text-center mb-30bis2">
                                 <h2 class="h22 text-vert mb-15 wow fadeInLeft" data-wow-delay=".4s">Image de marque</h2>
                                 <p class="p2 text-white wow fadeInLeUp" data-wow-delay=".6s">Nous concevons et développons des solutions numériques innovantes et ergonomiques axées sur la performance et l’expérience utilisateur. Notre agence s’adapte aux besoins de nos clients en concevant des applications mobiles et des sites internet performants.</p>
                             </div>
                         </div>
-                        <div class="col-xl-8 col-lg-10 mx-auto">
+                        <div class="col-xl-8 col-lg-8 mx-auto">
                             <form action="image.html" class="subscribe-form wow fadeInUp" data-wow-delay=".8s">
                               <!--  <input type="email" name="subs-input" id="subs-input" placeholder="Enter your email"> -->
                                 <button type="submit" class="theme-btn2bis">En savoir plus</button>
