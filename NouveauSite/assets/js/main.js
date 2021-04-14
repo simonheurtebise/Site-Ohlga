@@ -49,10 +49,10 @@ function onScroll(event) {
 		var refElement = document.querySelector(val);
 		var scrollTopMinus = scrollPos + 73;
 		if (
-				refElement
-				&& refElement.offsetTop <= scrollTopMinus
-				&& (refElement.offsetTop + refElement.offsetHeight > scrollTopMinus)
-			) {
+			refElement
+			&& refElement.offsetTop <= scrollTopMinus
+			&& (refElement.offsetTop + refElement.offsetHeight > scrollTopMinus)
+		) {
 			document.querySelector('.page-scroll').classList.remove('active');
 			currLink.classList.add('active');
 		} else {
