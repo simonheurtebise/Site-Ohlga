@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1288px" height="415px" viewBox="0 0 1288 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.348215205 0.00230246914 195.897759 0.00230246914 195.897759 373 0.348215205 373"></polygon>
+    </defs>
+    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#0F0F0F" x="0" y="0" width="1288" height="415"></rect>
+        <g id="Group-15" transform="translate(197.000000, 228.500000) scale(-1, 1) rotate(-180.000000) translate(-197.000000, -228.500000) translate(99.000000, 42.000000)">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M195.897759,274.795432 L195.897759,0.00149660494 L98.122414,0.00149660494 L98.122414,142.653274 C98.122414,196.891389 54.3456421,240.858188 0.348215205,240.858188 L0.348215205,274.795432 C0.348215205,329.030092 44.1226947,373.000345 98.122414,373.000345 C152.124426,373.000345 195.897759,329.030092 195.897759,274.795432" id="Fill-1" fill="#252525" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+        <path d="M99.5,175 C154.452333,175 199,219.547667 199,274.5 L199,415 L199,415 L0,415 L0,274.5 C-6.72971982e-15,219.547667 44.5476674,175 99.5,175 Z" id="Rectangle" fill="#4CFCC6"></path>
+        <ellipse id="Oval" fill="#4CFCC6" cx="297" cy="129.5" rx="47" ry="46.5"></ellipse>
+    </g>
+</svg>

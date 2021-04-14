@@ -18,8 +18,11 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #191919;
-  overflow-x: hidden;
   background-color: #000000;
+}
+
+html, body{
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -430,15 +433,15 @@ p {
 
 
 .scroll-top {
-  width: 45px;
-  height: 45px;
-  background: #804EF9;
+  width: 56px;
+  height: 56px;
+  background: #252525;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -450,6 +453,15 @@ p {
 .scroll-top:hover {
   background: #7D5FDE;
   color: #fff;
+}
+
+@media (max-width: 575px) {
+.scroll-top {
+    bottom: 16px;
+    right: 16px;
+    background: #fff;
+    color: #252525;
+  }
 }
 
 @keyframes animation1 {
@@ -2455,7 +2467,7 @@ p {
 
 .subscribe-section .subscribe-wrapper {
   border-radius: 30px;
-  background: #0F0F0F;
+  background: #804EF9;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -2595,23 +2607,41 @@ p {
   margin: auto;
   }
 
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .containerlogo {
+      max-width: 1108px;
+      }
+      .logogrid {
+        grid-gap: 2rem;
+      }
+  }
+
 
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .containerlogo{
-      width: 88%;
-    }
+    .containerlogo {
+      max-width: 928px;
+      }
+      .logogrid {
+        grid-gap: 3rem;
+      }
   }
 
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .containerlogo{
-      width: 76%;
-    }
+    .containerlogo {
+      max-width: 688px;
+      }
+      .logogrid {
+        grid-gap: 2rem;
+      }
   }
 
   @media (max-width: 767px) {
-    .containerlogo{
-      width: 88%;
-    }
+    .containerlogo {
+      max-width: 508px;
+      }
+      .logogrid {
+        grid-gap: 2rem;
+      }
   }
 
 
